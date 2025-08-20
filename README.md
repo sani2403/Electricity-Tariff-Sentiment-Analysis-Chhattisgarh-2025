@@ -33,7 +33,7 @@ The analysis reveals that **majority sentiment is negative**, reflecting afforda
 * **Positive:** Minimal support, linked to expected improvements in electricity quality and renewable energy adoption.
 
 ```markdown
-![Sentiment Distribution](visuals/Feeling about Tariff.png)
+![Sentiment Distribution](visuals/feeling_about_tariff.png)
 ```
 ---
 
@@ -42,7 +42,7 @@ The analysis reveals that **majority sentiment is negative**, reflecting afforda
 Frequently used terms include **bill, inflation, burden, government, affordability**.
 
 ```markdown
-![Word Cloud](visuals/WordCloud.png)
+![Word Cloud](visuals/wordcloud.png)
 ```
 
 ---
