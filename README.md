@@ -32,22 +32,17 @@ The analysis reveals that **majority sentiment is negative**, reflecting afforda
 * **Neutral:** Some respondents accepted tariff hikes as necessary due to rising infrastructure costs.
 * **Positive:** Minimal support, linked to expected improvements in electricity quality and renewable energy adoption.
 
-📌 *Insert chart here*
-
 ```markdown
-![Sentiment Distribution](visuals/sentiment_distribution.png)
+![Sentiment Distribution](visuals/Feeling about Tariff.png)
 ```
-
 ---
 
 ### 🔹 Word Cloud
 
 Frequently used terms include **bill, inflation, burden, government, affordability**.
 
-📌 *Insert word cloud here*
-
 ```markdown
-![Word Cloud](visuals/wordcloud.png)
+![Word Cloud](visuals/WordCloud.png)
 ```
 
 ---
