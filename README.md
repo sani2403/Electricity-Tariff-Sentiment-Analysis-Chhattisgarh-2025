@@ -34,6 +34,7 @@ The analysis reveals that **majority sentiment is negative**, reflecting afforda
 
 ```markdown
 ![Sentiment Distribution](visuals/feeling_about_tariff.png)
+<img src="visuals/feeling_about_tariff.png" alt="Sentiment Distribution" width="500"/>
 ```
 ---
 
