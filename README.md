@@ -1,38 +1,44 @@
-# ⚡ Electricity-Tariff-Sentiment-Analysis-Chhattisgarh-2025
-
+# ⚡ Survey-Based Sentiment Analysis on Increased Electricity Tariffs
 The state of Chhattisgarh has announced new electricity tariffs for 2025–26, effective July 1, 2025, raising domestic rates by ₹0.10–0.20 per unit and impacting nearly 60 lakh consumers. Alongside the tariff hike, the state has introduced specific rebates, such as concessions for mobile towers in LWE-affected areas and hospitals in rural regions.
 
-This project analyzes public sentiment towards recent electricity tariff hikes using survey data collected via **Google Forms**. The responses were preprocessed and classified using **Natural Language Processing (NLP)** and **Machine Learning** techniques into **positive, negative, and neutral sentiments**.
+This project analyzes **public sentiment and opinion** regarding the **increase in electricity tariffs** through a **survey-based study** conducted via **Google Forms**.  
+The responses were primarily **Likert-scale based (Strongly Agree → Strongly Disagree)**, providing a quantitative measure of sentiment and opinion trends.  
 
-The analysis reveals that **majority sentiment is negative**, reflecting affordability concerns and dissatisfaction with government tariff policies. Neutral responses point to tariff hikes as an unavoidable necessity, while positive views were minimal, supporting tariff increases only if linked to better electricity supply and renewable adoption.
-
----
-
-## ⚙️ Features
-
-* Google Forms survey data collection  
-* Text preprocessing (cleaning, tokenization, lemmatization, stopword removal)  
-* Sentiment classification (Logistic Regression, Random Forest, etc.)  
-* Data visualization (word clouds, sentiment distribution, keyword analysis)  
-* Insights into **public perception of tariff policies**  
+In addition, open-ended feedback was processed using **Natural Language Processing (NLP)** techniques to generate **word clouds** and **heatmaps**, offering a visual interpretation of the most common themes and emotions expressed by participants.
 
 ---
 
-## 🛠️ Tech Stack
-
-* **Languages:** Python  
-* **Libraries:** Pandas, NumPy, Scikit-learn, NLTK, Matplotlib, Seaborn, WordCloud  
-* **Environment:** Google Colab  
+## 🎯 Objectives
+- Collect survey responses on public perception of electricity tariff hikes.  
+- Analyze **Likert-scale sentiment trends** statistically.  
+- Apply **basic NLP** for open-text comments to extract key themes.  
+- Visualize insights using **heatmaps**, **word clouds**, and **sentiment charts**.  
+- Derive actionable insights to understand consumer sentiment toward tariff changes.
 
 ---
 
-## 📊 Results & Inferences
+## 🧩 Features
+- 📊 Import survey data directly from Google Forms (CSV/Excel).  
+- 🧮 Analyze **Likert-scale responses** using descriptive statistics and visual plots.  
+- ☁️ Generate **Word Clouds** from text feedback using NLP tokenization and frequency analysis.  
+- 🌡️ Create **Heatmaps** to show sentiment intensity across questions.  
+- 📈 Visualize findings through bar charts, pie charts, and correlation matrices.  
+- 🧠 Export analyzed data and visuals for reporting or dashboards.
 
-### 🔹 Sentiment Distribution
+---
 
-* **Negative:** Majority of respondents, citing affordability burden and dissatisfaction.  
-* **Neutral:** Some respondents accepted tariff hikes as necessary due to rising infrastructure costs.  
-* **Positive:** Minimal support, linked to expected improvements in electricity quality and renewable energy adoption.  
+## 🧠 Tech Stack
+**Languages:** Python (3.10+)  
+**Environment:** Jupyter Notebook / Google Colab  
+
+**Libraries:**
+- `pandas`, `numpy` – Data cleaning and statistical analysis  
+- `matplotlib`, `seaborn`, `wordcloud` – Visualization and heatmaps  
+- `nltk` – Text preprocessing for word cloud generation  
+- `scikit-learn` – Optional utilities for encoding and scaling  
+- `tqdm` – Progress tracking in data operations  
+
+---
 
 <p align="center">
   <img src="visuals/feeling_about_tariff.png" alt="Sentiment Distribution" width="500"/>
